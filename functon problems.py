@@ -3,12 +3,12 @@ def even_odd(num):    #function even or odd number
     if num%2==0:
         print(f"{num}is a even number")
     else:
-        print(f"{num}is a even number")
+        print(f"{num}is a odd number")
 even_odd(num)
 even_odd(124)
 
 
-def even_odd(num,num_2): #required arguments its throw an error
+def even_odd(num,num_2): #required arguments its throw an error extra argument values has taken
     print(num+num_2)
 even_odd(10,20) 
 
